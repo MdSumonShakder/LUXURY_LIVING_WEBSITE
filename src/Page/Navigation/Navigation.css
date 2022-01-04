@@ -1,0 +1,28 @@
+.link:hover {
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(255, 25, 0);
+    transition: all .7s linear;
+    border-radius: 20px;
+   
+    
+}
+
+.sty {
+    border: none;
+    background-color: #30336b;
+    border-radius: 3px;
+    padding: 0px 30px;
+   
+}
+
+span.navbar-toggler-icon {
+    background-color: dimgray;
+   
+}
+.text-black.link.nav-link {
+    margin-bottom: 10px;
+}
+.logo{
+    width: 90px;
+    
+}
