@@ -11,13 +11,13 @@ import Roll from "react-reveal/Roll";
 const Testimonials = () => {
   return (
     <div id="testimonials" className="mb-5 pt-5 bg-light">
-      <div class="container">
-      <Roll top>
-        <h3 className="text-center fw-bold mt-3">Testimonials</h3>
+      <div className="container">
+        <Roll top>
+          <h3 className="text-center fw-bold mt-3">Testimonials</h3>
         </Roll>
-        <div class="row">
-          <div class="col-lg-4 col-md-6 col-12">
-            <div class="mt-5 w-100 p-2 mb-5">
+        <div className="row">
+          <div className="col-lg-4 col-md-6 col-12">
+            <div className="mt-5 w-100 p-2 mb-5">
               <LightSpeed left>
                 <Card className="p-4 border-0 shadow-lg">
                   <div className=" w-50 h-50 d-flex">
@@ -72,8 +72,8 @@ const Testimonials = () => {
               </LightSpeed>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-12">
-            <div class="mt-5 w-100 p-2 mb-5">
+          <div className="col-lg-4 col-md-6 col-12">
+            <div className="mt-5 w-100 p-2 mb-5">
               <Roll bottom>
                 <Card className="p-4 border-0 shadow-lg">
                   <div className=" w-50 h-50 d-flex">
@@ -128,8 +128,8 @@ const Testimonials = () => {
               </Roll>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-12">
-            <div class="mt-5 w-100 p-2 mb-5">
+          <div className="col-lg-4 col-md-6 col-12">
+            <div className="mt-5 w-100 p-2 mb-5">
               <LightSpeed right>
                 <Card className="p-4 border-0 shadow-lg">
                   <div className=" w-50 h-50 d-flex">
