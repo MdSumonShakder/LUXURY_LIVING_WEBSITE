@@ -17,8 +17,12 @@ const Contact = () => {
       .then((res) => {
         console.log(res);
       })
-      .catch((err) => console.log(err));
-  }
+      .catch((err) => {
+        console.log(err);
+      });
+      e.target.reset();
+  };
+  
 
   return (
     <div
@@ -48,14 +52,14 @@ const Contact = () => {
                     <input
                       type="email"
                       name="user_email"
-                      placeholder="Email Address"
+                      placeholder="Your Email"
                     />
                   </div>
                   <div className="col-md-6">
                     <input
-                      type="password"
-                      name="password"
-                      placeholder="Your Password"
+                      type="text"
+                      name="text"
+                      placeholder="Your Address"
                     />
                   </div>
                   <div className="col-md-6">
