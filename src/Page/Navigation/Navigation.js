@@ -2,7 +2,6 @@ import React from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import logo from "../../images/Logo.png";
 import { HashLink } from "react-router-hash-link";
-import "./Navigation.css";
 import { NavLink } from "react-router-dom";
 import useAuth from "./../../hooks/useAuth";
 
@@ -71,12 +70,15 @@ const Navigation = () => {
               Footer
             </Nav.Link>
             {user?.email ? (
-              <button className="sty" onClick={logOut}>
+          
+              <Nav.Link>
+               <button onClick={logOut}>
                 LogOut
               </button>
+            </Nav.Link>
             ) : (
               <NavLink to="/login">
-                <button className="sty">Login</button>
+                <button >Login</button>
               </NavLink>
             )}
 

@@ -1,6 +1,6 @@
 import React from "react";
 import emailjs from "emailjs-com";
-import "./Contact.css";
+
 import Zoom from "react-reveal/Zoom";
 
 const Contact = () => {

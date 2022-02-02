@@ -1,5 +1,5 @@
 import React from "react";
-import "./Banner.css";
+
 import RoomPhoto from "../../../images/Banner.png";
 import { Fade,Zoom } from "react-reveal";
 

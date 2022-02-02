@@ -6,7 +6,7 @@ import Navigation from "./Page/Navigation/Navigation";
 import Login from "./Page/Login/Login/Login";
 import Register from "./Page/Login/Register/Register";
 import AuthProvider from "./contexts/AuthProvider/AuthProvider";
-import PrivateRoute from "./Page/Login/PrivateRoute/PrivateRoute";
+
 function App() {
   return (
     <>
@@ -14,15 +14,8 @@ function App() {
         <BrowserRouter>
           <Navigation />
           <Routes>
-            <Route path="/" element={<Login />} />
-            <Route
-              path="/home"
-              element={
-                <PrivateRoute>
-                  <Home />
-                </PrivateRoute>
-              }
-            />
+            <Route path="/" element={<Home />} />
+            <Route path="/home" element={<Home />} />
             <Route path="/login" element={<Login />} />
             <Route path="/Register" element={<Register />} />
             <Route path="*" element={<NotFound />} />
